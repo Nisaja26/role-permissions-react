@@ -194,6 +194,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        Tightenco\Ziggy\ZiggyServiceProvider::class,
 
     ],
 
@@ -210,6 +211,7 @@ return [
 
     'aliases' => Facade::defaultAliases()->merge([
         // 'ExampleClass' => App\Example\ExampleClass::class,
+        'Route' => Tightenco\Ziggy\Ziggy::class,
     ])->toArray(),
 
 ];
