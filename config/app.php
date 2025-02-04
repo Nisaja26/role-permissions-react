@@ -197,7 +197,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         Tighten\Ziggy\ZiggyServiceProvider::class,
-        
+        Spatie\Permission\PermissionServiceProvider::class,
     ],
 
     /*
