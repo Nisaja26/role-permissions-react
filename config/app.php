@@ -181,6 +181,8 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        
+
 
         /*
          * Package Service Providers...
@@ -194,8 +196,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        Tightenco\Ziggy\ZiggyServiceProvider::class,
-
+        Tighten\Ziggy\ZiggyServiceProvider::class,
+        
     ],
 
     /*
@@ -211,7 +213,7 @@ return [
 
     'aliases' => Facade::defaultAliases()->merge([
         // 'ExampleClass' => App\Example\ExampleClass::class,
-        'Route' => Tightenco\Ziggy\Ziggy::class,
+    'Route' => Tighten\Ziggy\Ziggy::class,
     ])->toArray(),
 
 ];
